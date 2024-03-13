@@ -1,0 +1,10 @@
+.NavigationBar {
+    background-color: rgb(25, 6, 82);
+    height: 8vh;
+    width: 100vw;
+}
+
+#nav-page-link {
+    background-color: transparent;
+    padding: 20px;
+}
