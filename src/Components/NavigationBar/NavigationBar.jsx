@@ -8,6 +8,7 @@ export default function NavigationBar() {
             <Link to='/gear' id="nav-page-link">Gear</Link>
             <Link to='/photos' id="nav-page-link">Photos</Link>
             <Link to='/blog' id="nav-page-link">Blog</Link>
+            <Link to='/contact' id="nav-page-link">Contact</Link>
         </main>
     )
 }

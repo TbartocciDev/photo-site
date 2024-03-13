@@ -9,6 +9,7 @@ import HomePage from './Pages/HomePage/HomePage';
 import BlogPage from './Pages/BlogPage/BlogPage';
 import GearPage from './Pages/GearPage/GearPage';
 import PhotosPage from './Pages/PhotosPage/PhotosPage';
+import ContactPage from './Pages/ContactPage/ContactPage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/blog' element={<BlogPage/>}></Route>
         <Route path='/gear' element={<GearPage/>}></Route>
         <Route path='/photos' element={<PhotosPage/>}></Route>
+        <Route path='/contact' element={<ContactPage/>}></Route>
       </Routes>
     </div>
   );
