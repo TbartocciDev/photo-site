@@ -1,0 +1,20 @@
+
+.Photos-Page {
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    
+}
+
+input {
+    width: 400px;
+}
+input:autofill {
+    border: 3px solid darkorange;
+}
+  
+input:-webkit-autofill {
+    border: 3px solid darkorange;
+}
