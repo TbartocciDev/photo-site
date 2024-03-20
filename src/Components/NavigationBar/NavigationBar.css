@@ -1,10 +1,20 @@
 .NavigationBar {
-    background-color: rgb(25, 6, 82);
-    height: 8vh;
+    height: 80px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home-page-link {
+    text-decoration: none;
+    color: black;
+    font-size: 45px;
+    margin-right: 100px;
 }
 
 #nav-page-link {
-    background-color: transparent;
-    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-inline: 20px;
 }

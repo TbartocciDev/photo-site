@@ -1,0 +1,35 @@
+.SortSection {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 0.5px;
+    align-items: center;
+    padding-inline: 50px;
+    margin-top: 40px;
+}
+.SortSection :last-child {
+    margin-left: auto;
+}
+
+.categories-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sort-category {
+    font-size: 20px;
+    margin-right: 20px;
+}
+.sort-category:hover {
+    cursor:pointer
+}
+
+#selected-category {
+    text-decoration: underline;
+}
+
+.search-container {
+    display: flex;
+}
