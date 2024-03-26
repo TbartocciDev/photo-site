@@ -1,0 +1,17 @@
+.items-section {
+    border-style: solid;
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    text-align: center;
+}
+.items-section h3 {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#sub-item {
+    margin-left: 40px;
+}

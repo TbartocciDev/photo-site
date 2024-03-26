@@ -1,6 +1,21 @@
+
+/* --text: #23240a;
+--background: #eeeed8;
+--primary: #6e7222;
+--secondary: #96d981;
+--accent: #3bae32; */
+
+@font-face {
+  font-family: Poppins;
+  src: url(/public/fonts/Poppins/Poppins-Medium.ttf);
+}
+
 .App {
   background-color: #e3e2da;
+  background-color: #789686;
+  font-family: Poppins;
 }
+
 /* Phones */
 @media (max-width: 480px) {
   .App {

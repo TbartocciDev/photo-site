@@ -1,0 +1,22 @@
+.GearItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.GearItem p {
+    margin-inline: 10px;
+    font-size: 20px;
+}
+
+.gear-img-holder {
+    height: 40px;
+    aspect-ratio: 1/1;
+}
+
+.gear-img-holder img {
+    height: 100%;
+    width: 100%;
+    /* content: url('/public/bag.png'); */
+}
